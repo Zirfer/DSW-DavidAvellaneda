@@ -15,6 +15,9 @@ footer{
 .article-box{
     font-size: 25px !important;
 }
+ul{
+    background-color: #222d32;
+}
 /* Pre loader */
 .loader-container{
     z-index: 5000;
