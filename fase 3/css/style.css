@@ -18,6 +18,9 @@ footer{
 ul{
     background-color: #222d32;
 }
+li>span{
+    background-color: #222d32;
+}
 /* Pre loader */
 .loader-container{
     z-index: 5000;
