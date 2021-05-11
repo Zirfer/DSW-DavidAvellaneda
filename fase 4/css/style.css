@@ -1,0 +1,58 @@
+body{
+    background-color: #222d32;
+}
+h3{
+    margin: 2px;
+    padding: 10px;
+    font-weight: 500;
+}
+.main-header{
+    color: #fff;
+}
+footer{
+    font-size: 14px;
+}
+.article-box{
+    font-size: 25px !important;
+}
+ul{
+    background-color: #222d32;
+}
+li>span{
+    background-color: #222d32;
+}
+/* Pre loader */
+.loader-container{
+    z-index: 5000;
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    z-index: 5001;
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: #3498db;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+@keyframes loader{
+    25%{
+        color: #2ecc71;
+    }
+    50%{
+        color: #f1c40f;
+    }
+    75%{
+        color: #e74c3c;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
